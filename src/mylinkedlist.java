@@ -32,4 +32,10 @@ public class mylinkedlist {
         this.tail=null;
         this.currentSize=0;
     }
+
+    public static void main(String[] args) {
+        mylinkedlist linkedlist=new mylinkedlist();
+        node no= new node(10,null);
+
+    }
 }
