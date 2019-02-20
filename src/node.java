@@ -18,8 +18,8 @@ public class node {
         this.data = data;
     }
     public node(){
-        this.data=data;
-        this.next=next;
+        this.data=0;
+        this.next=null;
     }
 
     public node(int data) {
