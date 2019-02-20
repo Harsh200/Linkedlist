@@ -38,4 +38,7 @@ public class mylinkedlist {
         node no= new node(10,null);
 
     }
+    public void display(mylinkedlist linkedlsit){
+
+    }
 }
