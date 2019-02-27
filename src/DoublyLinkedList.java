@@ -51,7 +51,7 @@ DoublyLinkedList linkedList=new DoublyLinkedList();
          size++;
     }
     private void insertAfter(int data,Node node){
-
+     Node newNode=new Node()
 
     }
 }
