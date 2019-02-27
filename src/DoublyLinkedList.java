@@ -30,6 +30,9 @@ DoublyLinkedList linkedList=new DoublyLinkedList();
         StringBuilder response=new StringBuilder();
         response.append("[");
         Node temp=this.head;
+        while (temp!=null){
+            temp=temp.next;
+        }
         response.append("]");
          return response.toString();
     }
