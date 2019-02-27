@@ -32,7 +32,7 @@ public class SinglyLinkedList {
 
     private Node head = null;
     private int size = 0;
-
+//this is main method
     public static void main(String[] args) {
         SinglyLinkedList LinkedList = new SinglyLinkedList();
         System.out.println(LinkedList);
