@@ -24,4 +24,13 @@ private Node tail=null;
 DoublyLinkedList linkedList=new DoublyLinkedList();
         System.out.println(linkedList);
     }
+
+    @Override
+    public String toString() {
+        return "DoublyLinkedList{" +
+                "size=" + size +
+                ", head=" + head +
+                ", tail=" + tail +
+                '}';
+    }
 }
