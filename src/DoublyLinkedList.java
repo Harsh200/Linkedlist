@@ -23,6 +23,9 @@ private Node tail=null;
     public static void main(String[] args) {
 DoublyLinkedList linkedList=new DoublyLinkedList();
         System.out.println(linkedList);
+        for (int i = 0; i < 10; i++) {
+            linkedList.insert(i+1);
+        }
     }
 
     @Override
