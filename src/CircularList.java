@@ -18,6 +18,7 @@ Node next;
     Node tail=null;
 
     public CircularList() {
+        tail.next=head;
     }
 
     public static void main(String[] args) {
