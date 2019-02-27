@@ -52,6 +52,8 @@ DoublyLinkedList linkedList=new DoublyLinkedList();
     }
     private void insertAfter(int data,Node node){
      Node newNode=new Node(data,node,node.next);
+     node.next=newNode;
+     newNode.next.pre=newNode;
 
     }
 }
