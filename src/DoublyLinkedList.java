@@ -29,7 +29,8 @@ DoublyLinkedList linkedList=new DoublyLinkedList();
     public String toString() {
         StringBuilder response=new StringBuilder();
         response.append("[");
+        Node temp=this.head;
         response.append("]");
-return response.toString();
+         return response.toString();
     }
 }
