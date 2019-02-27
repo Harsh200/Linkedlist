@@ -22,6 +22,7 @@ Node next;
     }
 
     public static void main(String[] args) {
-CircularList list=new CircularList();
+       CircularList list=new CircularList();
+        System.out.println(list);
     }
 }
