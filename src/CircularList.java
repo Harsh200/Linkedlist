@@ -25,4 +25,10 @@ Node next;
        CircularList list=new CircularList();
         System.out.println(list);
     }
+
+    @Override
+    public String toString() {
+
+
+    }
 }
