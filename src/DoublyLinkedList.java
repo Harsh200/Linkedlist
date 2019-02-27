@@ -16,4 +16,5 @@ private Node next;
         this.next=null;
     }
 }
+private int size=0;
 }
