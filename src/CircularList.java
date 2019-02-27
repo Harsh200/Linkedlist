@@ -14,4 +14,5 @@ Node next;
         }
     }
     int size=0;
+    Node head=null;
 }
