@@ -40,5 +40,6 @@ DoublyLinkedList linkedList=new DoublyLinkedList();
     public void insert(int data){
       Node newNode=new Node(data,null,this.head);
       this.head=newNode;
+      size++;
     }
 }
