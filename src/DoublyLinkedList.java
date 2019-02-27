@@ -24,7 +24,7 @@ private Node tail=null;
 DoublyLinkedList linkedList=new DoublyLinkedList();
         System.out.println(linkedList);
         for (int i = 0; i < 10; i++) {
-            linkedList.insert(i+1);
+            linkedList.insertHead(i+1);
         }
         System.out.println(linkedList);
     }
