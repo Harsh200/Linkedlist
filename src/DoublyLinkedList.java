@@ -44,7 +44,7 @@ DoublyLinkedList linkedList=new DoublyLinkedList();
         response.append("]");
          return response.toString();
     }
-    public void insertHead(int data){
+    private void insertHead(int data){
       Node newNode=new Node(data,null,this.head);
       this.head=newNode;
       size++;
