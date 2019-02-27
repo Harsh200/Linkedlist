@@ -29,7 +29,9 @@ Node next;
     @Override
     public String toString() {
         StringBuilder response=new StringBuilder();
-        return  response.toString()
+        response.append("[");
+        Node temp=this.head;
+        return  response.toString();
 
     }
 }
