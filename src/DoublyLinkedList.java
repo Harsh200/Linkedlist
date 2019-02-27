@@ -38,6 +38,6 @@ DoublyLinkedList linkedList=new DoublyLinkedList();
          return response.toString();
     }
     public void insert(int data){
-      Node newNode=new Node(data,null,);
+      Node newNode=new Node(data,null,this.head);
     }
 }
