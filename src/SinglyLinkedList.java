@@ -112,6 +112,11 @@ Node temp=this.head;
 if(temp.data==data){
 response=removeHead();
 }
+else{
+    while(temp.data==data){
+        response=removeAfter(temp);
+    }
+}
 }
 
     private int removeAfter(Node node) {
