@@ -17,7 +17,7 @@ Node next;
     Node head=null;
     Node tail=null;
 
-    public CircularList() {
+     CircularList() {
         tail.next=head;
     }
 
@@ -31,6 +31,12 @@ Node next;
         StringBuilder response=new StringBuilder();
         response.append("[");
         Node temp=this.head;
+        while(temp!=null){
+            response.append(temp.data);
+            if(temp.next!=null){
+                response.append(" ==>");
+            }
+        }
         return  response.toString();
 
     }
