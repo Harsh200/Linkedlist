@@ -27,10 +27,7 @@ DoublyLinkedList linkedList=new DoublyLinkedList();
 
     @Override
     public String toString() {
-        return "DoublyLinkedList{" +
-                "size=" + size +
-                ", head=" + head +
-                ", tail=" + tail +
-                '}';
+        StringBuilder response=new StringBuilder();
+
     }
 }
