@@ -110,7 +110,7 @@ public int remove(int data){
 int response=-1;
 Node temp=this.head;
 if(temp.data==data){
-
+response=removeHead();
 }
 }
 
