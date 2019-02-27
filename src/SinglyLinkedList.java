@@ -74,7 +74,7 @@ public class SinglyLinkedList {
         size++;
 
     }
-
+//insert after method
     private void insertAfter(int data, Node node) {
         Node newNode = new Node(data, node.next);
         node.next = newNode;
@@ -82,6 +82,7 @@ public class SinglyLinkedList {
 
 
     }
+    //insert method
 
     public void insert(int data) {
         if (head == null) {
