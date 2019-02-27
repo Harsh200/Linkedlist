@@ -17,4 +17,5 @@ private Node next;
     }
 }
 private int size=0;
+private Node head=null;
 }
