@@ -31,6 +31,7 @@ DoublyLinkedList linkedList=new DoublyLinkedList();
         response.append("[");
         Node temp=this.head;
         while (temp!=null){
+           response.append(temp.data);
             temp=temp.next;
         }
         response.append("]");
