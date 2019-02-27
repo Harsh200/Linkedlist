@@ -66,6 +66,7 @@ DoublyLinkedList linkedList=new DoublyLinkedList();
             while (temp!=null){
                 temp=temp.next;
             }
+            insertAfter(data,temp);
         }
     }
 }
