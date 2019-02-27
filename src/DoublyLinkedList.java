@@ -4,7 +4,7 @@ private int data;
 private Node pre;
 private Node next;
 
-    public Node(int data, Node pre, Node next) {
+    private Node(int data, Node pre, Node next) {
         this.data = data;
         this.pre = pre;
         this.next = next;
@@ -54,6 +54,7 @@ DoublyLinkedList linkedList=new DoublyLinkedList();
      Node newNode=new Node(data,node,node.next);
      node.next=newNode;
      newNode.next.pre=newNode;
+     size++;
 
     }
 }
