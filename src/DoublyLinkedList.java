@@ -61,5 +61,11 @@ DoublyLinkedList linkedList=new DoublyLinkedList();
         if(head==null){
             insertHead(data);
         }
+        else {
+            Node temp=this.head;
+            while (temp!=null){
+                temp=temp.next;
+            }
+        }
     }
 }
