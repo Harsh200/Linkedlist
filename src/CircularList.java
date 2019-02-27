@@ -13,4 +13,5 @@ Node next;
             this.next = next;
         }
     }
+    int size=0;
 }
