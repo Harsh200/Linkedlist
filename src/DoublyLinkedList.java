@@ -57,4 +57,4 @@ DoublyLinkedList linkedList=new DoublyLinkedList();
      size++;
 
     }
-}
+    public void insert()
