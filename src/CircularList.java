@@ -36,7 +36,9 @@ Node next;
             if(temp.next!=null){
                 response.append(" ==>");
             }
+            temp=temp.next;
         }
+        response.append("]");
         return  response.toString();
 
     }
