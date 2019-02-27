@@ -15,6 +15,7 @@ Node next;
     }
     int size=0;
     Node head=null;
+    Node tail=null;
 
     public static void main(String[] args) {
 CircularList list=new CircularList();
