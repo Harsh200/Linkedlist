@@ -26,6 +26,7 @@ DoublyLinkedList linkedList=new DoublyLinkedList();
         for (int i = 0; i < 10; i++) {
             linkedList.insert(i+1);
         }
+        System.out.println(linkedList);
     }
 
     @Override
