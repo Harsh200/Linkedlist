@@ -106,7 +106,9 @@ public class SinglyLinkedList {
         return response;
     }
 
+public int remove(int data){
 
+}
 
     private int removeAfter(Node node) {
         int response = -1;
