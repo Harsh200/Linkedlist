@@ -37,7 +37,7 @@ DoublyLinkedList linkedList=new DoublyLinkedList();
         while (temp!=null){
            response.append(temp.data);
            if(temp.next!=null){
-               response.append(" ==> ");
+               response.append(" <==> ");
            }
             temp=temp.next;
         }
