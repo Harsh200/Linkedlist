@@ -49,4 +49,7 @@ DoublyLinkedList linkedList=new DoublyLinkedList();
       this.head=newNode;
       size++;
     }
+    private void insertAfter(){
+
+    }
 }
