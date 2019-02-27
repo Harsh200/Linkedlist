@@ -110,13 +110,15 @@ public int remove(int data){
 int response=-1;
 Node temp=this.head;
 if(temp.data==data){
-response=removeHead();
+response=removeAfter(temp);
 }
 else{
     while(temp.data==data){
         response=removeAfter(temp);
+        break;
     }
 }
+return response;
 }
 
     private int removeAfter(Node node) {
