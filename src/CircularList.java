@@ -28,7 +28,8 @@ Node next;
 
     @Override
     public String toString() {
-
+        StringBuilder response=new StringBuilder();
+        return  response.toString()
 
     }
 }
