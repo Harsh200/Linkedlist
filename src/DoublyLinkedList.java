@@ -22,5 +22,6 @@ private Node tail=null;
 
     public static void main(String[] args) {
 DoublyLinkedList linkedList=new DoublyLinkedList();
+        System.out.println(linkedList);
     }
 }
