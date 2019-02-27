@@ -17,6 +17,6 @@ Node next;
     Node head=null;
 
     public static void main(String[] args) {
-
+CircularList list=new CircularList();
     }
 }
