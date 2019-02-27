@@ -45,6 +45,7 @@ public class SinglyLinkedList {
         LinkedList.insertHead(42);
         System.out.println(LinkedList);
     }
+    //end of main method
 
     @Override
     public String toString() {
