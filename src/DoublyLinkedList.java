@@ -9,5 +9,9 @@ private Node next;
         this.pre = pre;
         this.next = next;
     }
+
+    public Node(int data) {
+        this.data = data;
+    }
 }
 }
