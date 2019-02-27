@@ -15,4 +15,8 @@ Node next;
     }
     int size=0;
     Node head=null;
+
+    public static void main(String[] args) {
+
+    }
 }
