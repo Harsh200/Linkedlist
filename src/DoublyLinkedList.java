@@ -59,6 +59,10 @@ DoublyLinkedList obj=new DoublyLinkedList();
       temp=temp.previous;
       temp.next=null;
     }
+    boolean search(Node node){
+
+        }
     }
+
 
 }
