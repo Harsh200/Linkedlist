@@ -55,10 +55,10 @@ DoublyLinkedList obj=new DoublyLinkedList();
       while (temp.next!=null){
           temp=temp.next;
       }
-        System.out.println("deleting node" + temp.data + "from last");
+        System.out.println("deleting node" + temp.data +"from last");
+      temp=temp.previous;
+      temp.next=null;
     }
-        temp=temp.previous;
-
     }
 
 }
