@@ -10,6 +10,7 @@ int size;
     public static void main(String[] args) {
 DoublyLinkedList obj=new DoublyLinkedList();
         for (int i = 0; i < 10; i++) {
+            Node node=new Node();
             
         }
     }
