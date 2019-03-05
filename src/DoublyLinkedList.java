@@ -48,7 +48,7 @@ DoublyLinkedList obj=new DoublyLinkedList();
 
     void delete(){
     if(head==null){
-
+        System.out.println("empty list");
     }
     }
 
