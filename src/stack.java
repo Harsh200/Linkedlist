@@ -28,6 +28,8 @@ private Node next;
     private Node top=null;
     private int size=0;
     public void push(int data){
+     Node newNode=new Node(data,this.top){
 
+     }
     }
 }
