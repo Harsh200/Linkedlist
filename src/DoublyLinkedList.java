@@ -5,5 +5,5 @@ class Node {
 }
 public class DoublyLinkedList{
 Node head;
-
+int size;
 }
