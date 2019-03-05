@@ -29,6 +29,7 @@ DoublyLinkedList obj=new DoublyLinkedList();
             temp=temp.next;
             }
             node.previous=temp;
+            temp.next=node;
         }
     }
 }
