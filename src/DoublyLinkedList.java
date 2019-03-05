@@ -50,6 +50,9 @@ DoublyLinkedList obj=new DoublyLinkedList();
     if(head==null){
         System.out.println("empty list");
     }
+    else {
+
+    }
     }
 
 }
