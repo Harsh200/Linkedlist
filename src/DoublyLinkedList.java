@@ -31,5 +31,5 @@ DoublyLinkedList obj=new DoublyLinkedList();
             node.previous=temp;
             temp.next=node;
         }
-    }
+    }//end of insert metho
 }
