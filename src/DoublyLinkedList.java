@@ -47,7 +47,9 @@ DoublyLinkedList obj=new DoublyLinkedList();
     //end of display method in doubly linked list
 
     void delete(){
+    if(head==null){
 
+    }
     }
 
 }
