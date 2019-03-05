@@ -52,6 +52,9 @@ DoublyLinkedList obj=new DoublyLinkedList();
     }
     else {
       Node temp=head;
+      while (temp.next!=null){
+
+      }
     }
     }
 
