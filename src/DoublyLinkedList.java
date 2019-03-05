@@ -64,8 +64,10 @@ DoublyLinkedList obj=new DoublyLinkedList();
      Node temp=head;
      while (temp!=null){
          if(temp.data==node.data){
-
+             response = true;
+            break;
          }
+
      }
         }
     }
