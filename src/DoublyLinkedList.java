@@ -50,6 +50,7 @@ public class DoublyLinkedList {
         if (head == null) {
             System.out.println("empty list");
         } else {
+
             Node temp = head;
             while (temp.next != null) {
                 temp = temp.next;
@@ -58,6 +59,7 @@ public class DoublyLinkedList {
             temp = temp.previous;
             temp.next = null;
         }
+    }
         boolean search (Node node){
             boolean response = false;
             Node temp = head;
@@ -71,9 +73,35 @@ public class DoublyLinkedList {
             return response;
         }
         void insertAtBegineer(Node node){
+            System.out.println("inserting node " + node.data + "at begineer");
+            if(head==null){
+                head=node;
+            }
+            else{
+                node.next=head;
+                head.previous=node;
+                head=node;
+            }
+                size++;
+        }
+        void deleteFromBegining(){
+            System.out.println("deleting node" +head.data +"from begining");
+            head=head.next;
+            head.previous=null;
+        }
+        void insertBeforeNode(Node node ,Node nodeBefore){
+            System.out.println("insert node" + node.data + "before node" +nodeBefore.data);
+            Node temp=head;
+            while (temp!=null){
+                if(temp.data==nodeBefore.data){
+                    temp.previous.next=node;
+                    node.next=temp;
 
+                    node.previous=node;
+                }
+            }
         }
     }
-}
+
 
 
