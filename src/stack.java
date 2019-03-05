@@ -1,7 +1,7 @@
 public class stack {
-    private static class Node{
-private int data;
-private Node next;
+    private static class Node {
+        private int data;
+        private Node next;
 
         public int getData() {
             return data;
@@ -27,9 +27,23 @@ private Node next;
     }
     private Node top=null;
     private int size=0;
-    public void push(int data){
-     Node newNode=new Node(data,this.top){
-
-     }
+    public void push(int data) {
+        Node newNode = new Node(data, this.top) {
+    this.top=newNode;
+    this.size++;
+        }
     }
+    public int pop(){
+        int response=-1;
+        if(this.top!=null){
+            response=this.top.getData();
+            this.top=this.top.getNext();
+            size--;
+        }
+        else{
+            System.out.println("stack is empty");
+        }
+        return response;
+    }
+
 }
