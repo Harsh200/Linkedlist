@@ -1,6 +1,8 @@
-class Node{
-int data;
-Node next;
-Node previous;
+class Node {
+    int data;
+    Node next;
+    Node previous;
+}
+public class DoublyLinkedList{
 
-        }
+}
