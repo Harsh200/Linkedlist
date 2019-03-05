@@ -57,6 +57,8 @@ DoublyLinkedList obj=new DoublyLinkedList();
       }
         System.out.println("deleting node" + temp.data + "from last");
     }
+        temp=temp.previous;
+
     }
 
 }
