@@ -18,4 +18,7 @@ DoublyLinkedList obj=new DoublyLinkedList();
         obj.display();
         obj.delete();
     }
+    void insert (Node node){
+
+    }
 }
