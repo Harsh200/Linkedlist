@@ -60,7 +60,7 @@ DoublyLinkedList obj=new DoublyLinkedList();
       temp.next=null;
     }
     boolean search(Node node){
-
+     boolean response=false;
         }
     }
 
