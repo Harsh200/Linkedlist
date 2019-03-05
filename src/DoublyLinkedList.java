@@ -34,7 +34,7 @@ DoublyLinkedList obj=new DoublyLinkedList();
     }//end of insert metho
 
     void display(){
-
+        System.out.println("Doubly LinkedList");
 
     }
 }
