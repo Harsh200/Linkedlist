@@ -46,4 +46,7 @@ public class stack {
         return response;
     }
 
+    public static void main(String[] args) {
+
+    }
 }
