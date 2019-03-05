@@ -15,5 +15,6 @@ DoublyLinkedList obj=new DoublyLinkedList();
             obj.insert(node);
             
         }
+        obj.display();
     }
 }
