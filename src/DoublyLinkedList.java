@@ -38,6 +38,7 @@ DoublyLinkedList obj=new DoublyLinkedList();
         Node temp=head;
         System.out.println("null <-->");
         while (temp!=null){
+            System.out.println(temp.data +"<-->");
 
         }
 
