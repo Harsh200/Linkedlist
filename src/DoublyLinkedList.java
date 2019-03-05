@@ -42,6 +42,6 @@ DoublyLinkedList obj=new DoublyLinkedList();
             temp=temp.next;
 
         }
-
+        System.out.println("null");
     }
 }
