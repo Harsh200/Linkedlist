@@ -51,7 +51,7 @@ DoublyLinkedList obj=new DoublyLinkedList();
         System.out.println("empty list");
     }
     else {
-
+      Node temp=head;
     }
     }
 
