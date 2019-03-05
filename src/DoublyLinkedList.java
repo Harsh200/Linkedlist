@@ -32,4 +32,9 @@ DoublyLinkedList obj=new DoublyLinkedList();
             temp.next=node;
         }
     }//end of insert metho
+
+    void display(){
+
+
+    }
 }
