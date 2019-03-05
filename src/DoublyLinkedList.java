@@ -11,6 +11,7 @@ int size;
 DoublyLinkedList obj=new DoublyLinkedList();
         for (int i = 0; i < 10; i++) {
             Node node=new Node();
+            node.data=(i+1)*100;
             
         }
     }
