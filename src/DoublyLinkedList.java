@@ -37,6 +37,9 @@ DoublyLinkedList obj=new DoublyLinkedList();
         System.out.println("Doubly LinkedList");
         Node temp=head;
         System.out.println("null <-->");
+        while (temp!=null){
+
+        }
 
     }
 }
