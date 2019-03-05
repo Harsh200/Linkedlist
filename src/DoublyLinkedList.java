@@ -4,5 +4,6 @@ class Node {
     Node previous;
 }
 public class DoublyLinkedList{
+Node head;
 
 }
