@@ -35,6 +35,7 @@ DoublyLinkedList obj=new DoublyLinkedList();
 
     void display(){
         System.out.println("Doubly LinkedList");
+        Node temp=head;
 
     }
 }
