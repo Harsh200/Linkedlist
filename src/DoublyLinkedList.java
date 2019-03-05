@@ -44,4 +44,5 @@ DoublyLinkedList obj=new DoublyLinkedList();
         }
         System.out.println("null");
     }
+    //end of display method in doubly linked list
 }
