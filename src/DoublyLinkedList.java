@@ -67,7 +67,7 @@ DoublyLinkedList obj=new DoublyLinkedList();
              response = true;
             break;
          }
-
+               temp=temp.next;
      }
         }
     }
