@@ -19,6 +19,12 @@ DoublyLinkedList obj=new DoublyLinkedList();
         obj.delete();
     }
     void insert (Node node){
-
+        System.out.println("inserting Node" + node.data +"atlast");
+        if(head==null){
+            head=node;
+        }
+        else{
+            Node temp=head
+        }
     }
 }
