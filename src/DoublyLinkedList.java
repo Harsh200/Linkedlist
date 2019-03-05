@@ -24,7 +24,10 @@ DoublyLinkedList obj=new DoublyLinkedList();
             head=node;
         }
         else{
-            Node temp=head
+            Node temp=head;
+            while (temp.next!=null){
+
+            }
         }
     }
 }
