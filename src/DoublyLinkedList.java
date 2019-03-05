@@ -16,5 +16,6 @@ DoublyLinkedList obj=new DoublyLinkedList();
             
         }
         obj.display();
+        obj.delete();
     }
 }
