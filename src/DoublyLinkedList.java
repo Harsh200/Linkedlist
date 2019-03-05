@@ -28,6 +28,7 @@ DoublyLinkedList obj=new DoublyLinkedList();
             while (temp.next!=null){
             temp=temp.next;
             }
+            node.previous=temp;
         }
     }
 }
