@@ -39,6 +39,8 @@ do{
 while(temp!=head);
         System.out.println("");
     }
+public void addNodeToHead(int data){
+        Node n=new Node(data);
 
 }
 }
