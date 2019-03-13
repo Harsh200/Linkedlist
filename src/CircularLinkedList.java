@@ -69,6 +69,7 @@ public class CircularLinkedList {
             }
             size++;
         }
+          public void addNodeToTail(int data){
 
     }
 
