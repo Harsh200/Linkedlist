@@ -52,7 +52,7 @@ public class CircularLinkedList {
             } else {
                 Node temp = head;
                 do {
-                    System.out.println(" " + temp.data);
+                    System.out.print(" " + temp.data);
                     temp = temp.next;
                 }
                 while (temp != head);
