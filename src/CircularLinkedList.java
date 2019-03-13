@@ -5,6 +5,13 @@ public class CircularLinkedList {
 
     public static void main(String[] args) {
         CircularLinkedList linkedList = new CircularLinkedList();
+        for (int i = 0; i < 5; i++) {
+             linkedList.addNodeToHead(i+1);
+        }
+        linkedList.print();
+        linkedList.addNodeToHead(45);
+        linkedList.print();
+        linkedList.deleteHead();
         linkedList.print();
 
     }
@@ -80,6 +87,14 @@ public class CircularLinkedList {
                   tail.next=head;
                   size++;
               }
+          }
+          public void deleteHead(){
+                  if(size!=0){
+                      Node temp=head;
+                      head=head.next;
+                      tail.next=head;
+                      size--;
+                  }
           }
     }
 
